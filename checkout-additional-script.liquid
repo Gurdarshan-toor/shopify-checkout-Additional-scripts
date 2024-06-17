@@ -1,0 +1,46 @@
+<!---- ye code Order status page additional scripts Additional scripts mein hi rehne do-->
+<h2 align="center">Our Hours <!--and 2016 Holiday Schedule--></h2>
+<p align="center">
+<b>Thank You for your order. Our normal working hours are:</b><br/>
+Monday thru Friday:		7:30AM to 4:00PM<br/>
+Saturday and Sunday:		Closed, no shipments<br/><br/>
+
+<!--<b>Our 2018 Holiday Schedule – NO SHIPMENTS BEING MADE:</b><br/>
+<p>
+<table border="0" cellpadding="15">
+<tbody><tr><td>FRIDAY, March 30<sup>th</sup></td><td>closed</td><td>GOOD FRIDAY</td></tr>
+<tr><td>MONDAY, May 28<sup>th</sup></td><td>closed</td><td>MEMORIAL DAY</td></tr>
+<tr><td>WEDNESDAY, July 4<sup>th</sup></td><td>closed</td><td>INDEPENDENCE DAY</td></tr>
+<tr><td>MONDAY, September 3<sup>rd</sup></td><td>closed</td><td>LABOR DAY</td></tr>
+<tr><td>THURSDAY &amp; FRIDAY, <br>November 22<sup>nd</sup> &amp; 23<sup>rd</sup></td><td>closed</td><td>THANKSGIVING DAY</td></tr>
+<tr><td>MONDAY &amp; TUESDAY, <br>December 24<sup>th</sup> &amp; 25<sup>th</sup></td><td>closed</td><td>CHRISTMAS</td></tr>
+<tr><td>MONDAY &amp; TUESDAY, <br>December 31<sup>st</sup> &amp; January 1<sup>st</sup>, 2019</td><td>closed</td><td>NEW YEAR’S</td></tr>
+</tbody></table>
+</p>-->
+</p>
+
+<!------ ye code Post-purchase page Additional scripts mein rakhna-->
+<!-- Global site tag (gtag.js) - Google Ads: 1054898026 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1054898026"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-1054898026');
+</script>
+
+<!-- Event snippet for Item Purchase (Shed-Parts.com) conversion page -->
+<script>
+  gtag('event', 'conversion', {
+      'send_to': 'AW-1054898026/_JxeCNDz6QcQ6u6B9wM',
+      'value': {{ checkout.total_price | money_without_currency }},
+      'currency': 'USD',
+      'transaction_id':  '{{ order.order_number }}'
+  });
+</script>
+
+
+order ki jagah "checkout" aur _number ki jagah "_id" replace karna
+Order status page additional scripts => ke ander se Additional scripts utha kar => Post-purchase page Additional scripts par rakhni
+Additional scripts ke ander sirf script tag data ki rakhna
